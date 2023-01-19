@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.novo-logo{
+    color: white;
+}
+.novo-logo:hover{
+    color: #087716;
+    cursor: pointer;
+    transition: linear 100ms ease-in-out;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color:#087716;
+}
+.header-menu>li:hover{
+    color: var(--orange);
+    cursor: pointer
+}
+
+@media screen and (max-width: 767px) {
+    .header>:nth-child(2)
+    {
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+    .header-menu{
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+    }
+}
