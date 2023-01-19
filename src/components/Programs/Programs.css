@@ -10,7 +10,7 @@
     font-weight: bold;
     font-size: 3rem;
     justify-content: center;
-    color: #087716;
+    color: #35a944;
     text-transform: uppercase;
     font-style: italic;
   }
@@ -23,7 +23,7 @@
   .category {
     display: flex;
     flex-direction: column;
-    background-color: #087716;
+    background-color: #35a944;
     padding: 2rem;
     gap: 1rem;
     color: white;
@@ -39,6 +39,10 @@
     font-size: 1rem;
     font-weight: bold;
   }
+  .category:nth-child(2n) {
+    background-color: #0b4d14;
+  }
+
   .category > :nth-child(3) {
     font-size: 0.9rem;
     line-height: 25px;

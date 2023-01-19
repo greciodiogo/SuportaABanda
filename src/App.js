@@ -15,8 +15,8 @@ function App() {
       <Reasons/>
       {/* <Plans/> */}
       {/* <Testimonials/> */}
-      {/* <Join/> */}
-      {/* <Footer/> */}
+      <Join/>
+      <Footer/>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import image1 from "../../assets/cover.jpg";
 import image2 from "../../assets/images.jfif";
 import image3 from "../../assets/perfuração.jpg";
-import image4 from "../../assets/imagemNova.jpg";
+import image4 from "../../assets/black_maid.jpg";
 import nb from '../../assets/nb.png';
 import adidas from '../../assets/adidas.png'
 import nike from '../../assets/nike.png'
@@ -12,10 +12,10 @@ const Reasons = () => {
   return (
     <div className="Reasons" id='reasons'>
       <div className="left-r">
-        <img src={image1} alt="" />
+        <img src={image4} alt="" />
         <img src={image2} alt="" />
         <img src={image3} alt="" />
-        <img src={image4} alt="" />
+        <img src={image1} alt="" />
       </div>
       <div className="right-r">
         <span>Algumas razões</span>

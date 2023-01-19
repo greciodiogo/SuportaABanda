@@ -10,7 +10,7 @@
     color: white;
 }
 .novo-logo:hover{
-    color: #087716;
+    color: #35a944;
     cursor: pointer;
     transition: linear 100ms ease-in-out;
 }
@@ -19,7 +19,7 @@
     list-style: none;
     display: flex;
     gap: 2rem;
-    color:#087716;
+    color:#35a944;
 }
 .header-menu>li:hover{
     color: var(--orange);

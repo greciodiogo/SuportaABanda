@@ -14,9 +14,9 @@ const Footer = () => {
           <img src={Instagram} alt="" />
           <img src={LinkedIn} alt="" />
         </div>
-        <div className="logo-f">
+        {/* <div className="logo-f">
             <img src={Logo} alt="" />
-        </div>
+        </div> */}
       </div>
       <div className="blur blur-f"></div>
       <div className="blur blur-f"></div>
