@@ -15,7 +15,6 @@ const MainFooter = () => {
               <a href="#sends">Porquê Nós?</a>
               <a href="#garanties">Profissionais</a>
               <a href="#contacts">Contactos</a>
-              <a href="#payments">Pagamentos</a>
               <a href="#alternative">Resulução alternativa de litígios</a>
             </ul>
           </div>

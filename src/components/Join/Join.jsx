@@ -25,8 +25,7 @@ const Join = () => {
    <div className="Join" id='join-us'>
     <div className="left-j">
         <hr />
-        <div><span className='stroke-text'>Preparado para</span><span>Usufruir</span></div>
-        <div><span>dos nossos</span><span className='stroke-text'>serviços?</span></div>
+        <div><span className='stroke-text'>Fique</span><span>Conectado</span></div>
     </div>
     <div className="right-j">
         <form className="email-container" ref={form} onSubmit={handleJoin}>
