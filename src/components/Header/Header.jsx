@@ -6,17 +6,19 @@ import Bars from "../../assets/bars.png";
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false);
+  
   return (
     <div className="header" id="header">
       {/* <img src={Logo} alt="" className="logo" /> */}
       <h2 className="novo-logo">🛠 Suporta a Banda</h2>
       {(menuOpened===false && mobile===true)? (
         <div
-          style={{ backgroundColor: "var(--appColor)", padding: "0.5rem", borderRadius: "5px" }}
+          style={{ backgroundColor: "#35a994", color:"white", padding: "0.5rem", borderRadius: "5px" }}
           onClick={() => setMenuOpened(true)}
         >
           <img
             src={Bars}
+            className="bars"
             alt="bars"
             style={{ width: "1.5rem", height: "1.5rem" }}
           />
@@ -44,7 +46,7 @@ const Header = () => {
               Serviços
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               onClick={() => setMenuOpened(false)}
               to="reasons"
@@ -53,17 +55,9 @@ const Header = () => {
             >
               Porquê Nós
             </Link>
-          </li>
-          <li>
-            <Link
-              onClick={() => setMenuOpened(false)}
-              to="plans"
-              spy={true}
-              smooth={true}
-            >
-              Planos
-            </Link>
-          </li>
+          </li> */}
+          <NavLink text="Porquê Nós?" to="reasons" />
+          <NavLink text="Planos" to="plans" />
           {/* <li>
             <Link
               onClick={() => setMenuOpened(false)}
@@ -79,5 +73,20 @@ const Header = () => {
     </div>
   );
 };
+
+
+const NavLink = ({text,to,setMenuOpened}) => (
+  <li>
+   <Link
+     onClick={() => setMenuOpened(false)}
+     // activeClass="active"
+     to={to}
+     spy={true}
+     smooth={true}
+     >
+   {text}
+ </Link>
+</li>
+)
 
 export default Header;

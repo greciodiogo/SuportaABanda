@@ -35,7 +35,8 @@
     }
     .header-menu{
         flex-direction: column;
-        background-color: var(--appColor);
+        background-color: var(--orange);
         padding: 2rem;
+        color: white;
     }
 }

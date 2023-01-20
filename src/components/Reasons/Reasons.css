@@ -1,7 +1,7 @@
 .Reasons {
-    padding: 0 2rem;
+    margin: 0 2rem;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
   }
   .left-r {
     flex: 1 1;
@@ -36,6 +36,17 @@
   }
   
   /* right side */
+
+  @media screen and (max-width: 767px) {
+    .right-r{
+      font-size: x-large;
+    }
+    .right-r > span {
+      font-size: x-large;
+    }
+
+  }
+
   .right-r {
     flex: 1;
     text-transform: uppercase;
