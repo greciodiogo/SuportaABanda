@@ -1,9 +1,9 @@
 import React from "react";
 import "./Profissionals.css";
 import character from '../../assets/images.jfif';
-import character2 from '../../assets/hero_image.png';
-import character3 from '../../assets/cover.jpg';
 import character4 from '../../assets/perfuração.jpg';
+import character5 from '../../assets/eletricista.webp';
+import character6 from '../../assets/segurança2.jpg';
 import { motion } from "framer-motion";
 const Profissionals = () => {
   return (
@@ -21,11 +21,11 @@ const Profissionals = () => {
             transition={{type: 'spring'}}
             className="profissional">
                 <div className="picture">
-                  <img className="characterPicture" src={character2} alt={character2} />
+                  <img className="characterPicture" src={character6} alt={character6} />
                 </div>
                 <div className="content">
                   <h4 className="characterName">Paulo Gombet,<span className="characterAge">21</span></h4>
-                  <h3 className="characterRole">Jardineiro</h3>
+                  <h3 className="characterRole">Segurança</h3>
                   <button className="btnSeeProfile" >Ver Perfil</button>
                 </div>
             </motion.div>
@@ -45,7 +45,7 @@ const Profissionals = () => {
             transition={{type: 'spring'}}
             className="profissional">
                 <div className="picture">
-                  <img className="characterPicture" src={character3} alt={character3} />
+                  <img className="characterPicture" src={character5} alt={character5} />
                 </div>
                 <div className="content">
                   <h4 className="characterName">Sérgio Alberto,<span className="characterAge">37</span></h4>
