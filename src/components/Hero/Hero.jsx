@@ -81,16 +81,16 @@ const Hero = () => {
           </button>
 
         {/* heart rate */}
-        {/* <motion.div
+        <motion.div
           initial={{ right: "-1rem" }}
           whileInView={{ right: "4rem" }}
           transition={transition}
           className="heart-rate"
         >
           <img src={Heart} alt="" />
-          <span>Heart Rate</span>
-          <span>116 bpm</span>
-        </motion.div> */}
+          <span>Necessidade</span>
+          <span>110%</span>
+        </motion.div>
 
         {/* hero images */}
         <img className="hero-image" src={hero_image} alt="" />
@@ -104,18 +104,18 @@ const Hero = () => {
         /> */}
 
         {/* calories */}
-        {/* <motion.div
-          initial={{ right: "32rem" }}
-          whileInView={{ right: "28rem" }}
+        <motion.div
+          initial={{ right: "10rem" }}
+          whileInView={{ right: "17rem" }}
           transition={transition}
           className="calories"
         >
           <img src={Calories} alt="" />
           <div>
-            <span>Calories burned</span>
-            <span>220 kcal</span>
+            <span>Apoio</span>
+            <span>100 %</span>
           </div>
-        </motion.div> */}
+        </motion.div>
       </div>
     </div>
   );
