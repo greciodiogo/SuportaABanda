@@ -15,7 +15,30 @@
     font-style: italic;
     padding: 0 2rem;
   }
-  
+
+  .profissionals .seeAllContainer{
+    position: relative;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profissionals .seeAllContainer .seeAll:hover {
+    background-color: #35a944;
+    color: white;
+    transition: 300ms all ease-in;
+  }
+  .profissionals .seeAllContainer .seeAll {
+    padding: .8rem 3rem;
+    color: #35a944;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #35a944;
+  }
+
   .profissionals .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +47,7 @@
     gap: 10px;
     padding: 1rem 0;
     overflow: auto;
+    position: relative;
   }
   
 .profissionals .profissional {

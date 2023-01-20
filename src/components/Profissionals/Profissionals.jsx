@@ -65,6 +65,9 @@ const Profissionals = () => {
                   <button className="btnSeeProfile" >Ver Perfil</button>
                 </div>
             </motion.div>
+            <div className="seeAllContainer">
+              <span className="seeAll">Ver todos</span>
+            </div>
       </div>
     </div>
   );

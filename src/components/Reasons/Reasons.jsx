@@ -20,8 +20,8 @@ const Reasons = () => {
       <div className="right-r">
         <span>Algumas razões</span>
         <div>
-          <span className="stroke-text">Para  </span>
-          <span>Nossa parceria?</span>
+          <span className="stroke-text">Para ter a  </span>
+          <span>Nossa parceria</span>
         </div>
         <div className="details-r">
           <div>

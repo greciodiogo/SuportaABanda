@@ -38,12 +38,22 @@
   /* right side */
 
   @media screen and (max-width: 767px) {
-    .right-r{
-      font-size: x-large;
-    }
+    
     .right-r > span {
-      font-size: x-large;
+      font-size:medium;
     }
+    
+  .right-r > div {
+   font-size: medium;
+  }
+    
+  .right-r > div > span {
+   font-size: x-large;
+  }
+  .details-r > div > span {
+    font-size: small;
+    opacity: .85;
+  }
 
   }
 
@@ -60,7 +70,7 @@
   }
   .right-r > div {
     color: #35a944;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   .details-r {
