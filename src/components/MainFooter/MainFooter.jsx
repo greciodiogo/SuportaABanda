@@ -15,7 +15,6 @@ const MainFooter = () => {
               <a href="#sends">Porquê Nós?</a>
               <a href="#garanties">Profissionais</a>
               <a href="#contacts">Contactos</a>
-              <a href="#alternative">Resulução alternativa de litígios</a>
             </ul>
           </div>
           <div className="column">
@@ -28,7 +27,6 @@ const MainFooter = () => {
               <a href="#careers">Carreiras</a>
               <a href="#conditions">Condições Gerais</a>
               <a href="#policy">Política de Privacidade</a>
-              <a href="#afiliades">Afiliados</a>
             </ul>
           </div>
       </div>

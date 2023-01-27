@@ -1,0 +1,113 @@
+.container__header {
+    width: 100%;
+    height: 80px;
+    background: #35a944;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7%;
+    border-bottom: var(--border2);
+    gap: 2rem;
+}
+
+.container__header .logo {
+    /* color: var(--primary);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: lowercase; */
+}
+
+.container__header .search-bar-container {
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 24px;
+    height: 50px;
+}
+
+.container__header .search-bar-container .search-bar {
+    padding: 1.2rem;
+    border: 1px solid rgb(214, 210, 210);
+    background-color: rgb(246, 245, 248);
+    text-transform: none;
+    color: rgb(65, 72, 78);
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    width: 85%;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+
+.search-bar::placeholder{
+    color: rgb(65, 72, 78);
+}
+
+.container__header .search-bar-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 245, 248);
+    width: 15%;
+    cursor: pointer;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.container__header .search-bar-container button .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.container__header .post {
+}
+
+.container__header .post button {
+    padding: 1rem 4rem;
+    width: max-content;
+    color: dimgrey;
+    min-height: 40px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container__header .post button:hover {
+    opacity: 0.75;
+}
+
+
+@media(max-width:650px){
+    .container__header .post button{
+        padding: 1rem 3rem;
+    }
+    .container__header{
+        padding: 1rem 5%;
+        gap: 1rem;
+    }
+}
+@media(max-width:950px){
+    .container__header .search-bar-container {
+        display: none;
+    }
+}
+@media(max-width:450px){
+    .container__header .logo {
+        color: var(--primary);
+        font-size: 38px;
+    }
+    .container__header .post button {
+        padding: 1rem 2rem;
+        font-size: 15px;
+    }
+}

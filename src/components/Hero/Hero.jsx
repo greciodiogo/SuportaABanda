@@ -2,15 +2,21 @@ import React from "react";
 import Header from "../Header/Header";
 import "./Hero.css";
 import hero_image from "../../assets/hero_image.png";
-import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
 import {Link} from 'react-scroll'
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
   const transition = { duration: 3, type: "spring" };
   const mobile = window.innerWidth<=768? true:false;
+  const router = useNavigate()
+
+  const handleClickDescover = () => {
+    router('/home')
+  }
+
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
@@ -67,8 +73,8 @@ const Hero = () => {
 
         {/* hero buttons */}
         <div className="hero-buttons">
-          <button className="btn">Descobrir</button>
-          <button className="btn">Saber Mais</button>
+          <button className="btn" onClick={handleClickDescover}>Descobrir</button>
+          <a className="btn" >Saber Mais</a>
         </div>
       </div>
 

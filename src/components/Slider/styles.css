@@ -1,0 +1,42 @@
+
+
+  .swiper-pagination{
+    bottom: -10px !important;
+    padding: .5rem;
+  }
+  
+    .swiper-wrapper{
+    padding: 1rem !important;
+  }
+  
+    .swiper{
+    padding: 1rem !important;
+  }
+  
+  .swiper-pagination-bullet{
+    background-color: #35a944 !important;
+    height: 11px;
+    width: 11px;
+  }
+  
+
+  @media screen and (max-width: 1100px) {
+  
+  .slider{
+      padding: 1rem 9rem;
+    }
+  }
+
+  @media screen and (max-width: 981px) {
+  
+  .slider{
+      padding: 1rem 6rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+  
+  .slider{
+      padding: 1rem 2rem; 
+    }
+  }

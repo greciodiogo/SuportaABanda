@@ -1,28 +1,25 @@
+
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Home from './pages/landing'
 import './App.css';
 import Footer from './components/Footer/Footer';
-import Hero from './components/Hero/Hero';
-import Join from './components/Join/Join';
 import MainFooter from './components/MainFooter/MainFooter';
-// import Plans from './components/Plans/Plans';
-import Profissionals from './components/Profissionals/Profissionals';
-import Programs from './components/Programs/Programs';
-import Reasons from './components/Reasons/Reasons';
-// import Testimonials from './components/Testimonials/Testimonials';
+import HomePage from './pages/home';
+import ProfissionalsPage from "./pages/profissionals";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <Hero/>
-      <Programs/>
-      <Reasons/>
-      {/* <Plans/> */}
-      {/* <Testimonials/> */}
-      <Profissionals/>
-      <Join/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<ProfissionalsPage />} />
+      </Routes>
       <MainFooter />
       <Footer/>
-    </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
