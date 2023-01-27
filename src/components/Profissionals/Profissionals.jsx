@@ -16,7 +16,7 @@ import PreviewModal from "../PreviewModal/PreviewModal";
 
 const Profissionals = () => {
   const [product, setProduct] = useState(profissionalsData);
-  const [showPainel, setShowPainel] = useState(true);
+  const [showPainel, setShowPainel] = useState(false);
 
   const handlePrevProfissional = (idx) => {
     setProduct(profissionalsData[idx - 1]);
