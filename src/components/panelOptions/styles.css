@@ -1,0 +1,79 @@
+.panelOPtions {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panelOPtions .container {
+    margin: 10px;
+    width: 450px;
+    opacity: 1;
+    position: relative;
+    background-color: white;
+    transition: all 250ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.panelOPtions .container .top{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: rgb(243, 241, 241);
+    display: flex;justify-content: space-between;
+}
+
+.panelOPtions .container .top span{
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+
+.panelOPtions .container .top .btnClose{
+    cursor: pointer;
+    font-size: 12px;
+    opacity: 0.5;    
+}
+
+.panelOPtions .container .bottom{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 6px;
+    position: relative;
+}
+
+.panelOPtions .container .bottom .btn{
+    padding: 6px 16px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.panelOPtions .container .bottom .btn:hover{
+    opacity: 0.8;
+}
+
+.panelOPtions .container .bottom .btn.outlinedBtn{
+    border: 1px solid #909090;
+    opacity: .8;
+    color: black;
+    background-color: white;
+}

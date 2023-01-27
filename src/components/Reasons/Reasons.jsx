@@ -26,7 +26,7 @@ const Reasons = () => {
         <div className="details-r">
           <div>
             <img src={tick} alt="" />
-            <span>Mais de 100+ profissionais verificados disponiveis</span>
+            <span>Diversos profissionais verificados disponiveis</span>
           </div>
           <div>
             <img src={tick} alt="" />
