@@ -7,6 +7,20 @@ const Values = () => {
 
 <section className="about" id="about">
 
+
+   <div className="content">
+      <h3>Missão</h3>
+      <p>Trazer soluções de forma fácil às diversas necessdidades dos lares com 
+         insentivo e promoção de auto emprego em Luanda
+      </p>
+   </div>
+
+   <div className="image" style={{borderRadius:"50%"}}>
+      <img src="images/logo2.jpeg" alt="" style={{borderRadius:"50%"}}/>
+   </div>
+</section>
+<section className="about" id="about">
+
    <div className="image">
       <img src="images/logo.jpeg" alt="" />
    </div>
@@ -17,7 +31,6 @@ const Values = () => {
          e ser a preferência da população na solução de problemas domesticos enfrentados
          pelos lares nos próximos 5 anos em Luanda.
       </p>
-      <a href="#menu" className="btn">our menu</a>
    </div>
 
 </section>
