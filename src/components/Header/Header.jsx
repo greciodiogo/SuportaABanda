@@ -3,9 +3,14 @@ import Logo from "../../assets/logo.png";
 import "./Header.css";
 import { Link } from "react-scroll";
 import Bars from "../../assets/bars.png";
+import { useNavigate } from "react-router-dom";
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false);
+  const router = useNavigate()
+  const handleClickAbout = () => {
+    router('/about')
+  }
   
   return (
     <div className="header" id="header">
@@ -56,12 +61,9 @@ const Header = () => {
               Porquê Nós?
             </Link>
           </li>
-          <li>
+          <li >
             <Link
-              onClick={() => setMenuOpened(false)}
-              to="reasons"
-              spy={true}
-              smooth={true}
+              onClick={handleClickAbout}
             >
               Sobre Nós
             </Link>

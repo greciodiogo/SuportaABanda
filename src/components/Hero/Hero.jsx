@@ -16,6 +16,10 @@ const Hero = () => {
   const handleClickDescover = () => {
     router('/home')
   }
+  const handleClickAbout = () => {
+    router('/about')
+  }
+
 
   return (
     <div className="hero">
@@ -74,7 +78,7 @@ const Hero = () => {
         {/* hero buttons */}
         <div className="hero-buttons">
           <button className="btn" onClick={handleClickDescover}>Descobrir</button>
-          <a className="btn" >Saber Mais</a>
+          <a className="btn" onClick={handleClickAbout} >Saber Mais</a>
         </div>
       </div>
 

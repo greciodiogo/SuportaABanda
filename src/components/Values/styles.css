@@ -1,0 +1,63 @@
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:4rem;
+ }
+ 
+ .about .image{
+    flex:1 1 40rem;
+ }
+ 
+ .about .image img{
+    width: 100%;
+ }
+ 
+ .about .content{
+    flex:1 1 40rem;
+ }
+ 
+ .about .content h3{
+    font-size: 4.5rem;
+    color:var(--black);
+    font-family: 'Merienda One', cursive;
+    padding-bottom: 1rem;
+ }
+ 
+ .about .content p{
+    padding:1rem 0;
+    line-height: 2;
+    color:var(--light-color);
+    font-size: 1.5rem;
+ }
+ 
+ .facility .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+ }
+ 
+ .facility .box-container .box{
+    text-align: center;
+ }
+ 
+ 
+ .facility .box-container .box img{
+    height: 10rem;
+    margin-bottom: .5rem;
+ }
+ 
+ .facility .box-container .box h3{
+    font-size: 2rem;
+    color:var(--black);
+    margin:1rem 0;
+ }
+ 
+ .facility .box-container .box p{
+    line-height: 2;
+    font-size: 1.5rem;
+    color:var(--light-color);
+ }
+ 
