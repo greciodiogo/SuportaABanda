@@ -39,19 +39,19 @@ export const profissionalsData = [
       id:4,
       picture: "pintor-3.jpg",
       name: "Telmo Faria",
-      age: 24,
+      age: 25,
       description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
       country: "Angolana",
       address: "Samba",
       reviews: 4,
       exp: 5,
-      role: "Eletricista"
+      role: "Pintor"
     },
     {
-      id: 8,
-      picture: "canalizador-1.jpg",
-      name: "José Gomes,",
-      age: "25",
+      id: 5,
+      picture: "eletricista.webp",
+      name: "José Gomes",
+      age: "24",
       description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
       country: "Angolana",
       address: "Viana",
@@ -60,15 +60,39 @@ export const profissionalsData = [
       role: "Canalizador"
     },
     {
-      id: 9,
-      picture: "jardineiro-1.jpg",
-      name: "Manuel Ndala,",
-      age: "28",
+      id: 6,
+      picture: "eletricista.webp",
+      name: "José Gomes",
+      age: "24",
       description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
       country: "Angolana",
-      address: "Ramiros",
+      address: "Viana",
       reviews: 4,
       exp: 5,
-      role: "Jardineiro"
+      role: "Canalizador"
+    },
+    {
+      id: 7,
+      picture: "canalizador-2.webp",
+      name: "Ricardo Paulo",
+      age: "24",
+      description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+      country: "Angolana",
+      address: "Viana",
+      reviews: 4,
+      exp: 5,
+      role: "Canalizador"
+    },
+    {
+      id: 8,
+      picture: "canalizador-1.jpg",
+      name: "José Gomes",
+      age: "24",
+      description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+      country: "Angolana",
+      address: "Viana",
+      reviews: 4,
+      exp: 5,
+      role: "Canalizador"
     },
 ]  

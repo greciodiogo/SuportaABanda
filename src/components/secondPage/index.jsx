@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 import "../Profissionals/Profissionals.css";
-import { profissionalsData } from "../../data/profissionals.js";
+import { profissionalsData } from "../../data/profissionalsD.js";
 
 import Profissional from "./Profissional/Profissional";
 // import PreviewModal from "../PreviewModal/PreviewModal";
