@@ -1,3 +1,7 @@
+
+.html{
+    font-size: medium;
+  }
 .header{
     display: flex;
     justify-content: space-between;

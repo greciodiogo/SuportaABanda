@@ -52,7 +52,12 @@
  .facility .box-container .box h3{
     font-size: 2rem;
     color:var(--black);
-    margin:1rem 0;
+    /* padding: 0 1rem ; */
+    /* margin:1rem 0; */
+    border-radius: 12px;
+    padding: 8px;
+    color: white;
+    background-color: #35a944;
  }
  
  .facility .box-container .box p{
