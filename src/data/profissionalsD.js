@@ -69,11 +69,23 @@ export const profissionalsData = [
       address: "Viana",
       reviews: 4,
       exp: 5,
-      role: "Canalizador"
+      role: "Eletricista"
     },
     {
       id: 7,
       picture: "canalizador-2.webp",
+      name: "Ricardo Paulo",
+      age: "24",
+      description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+      country: "Angolana",
+      address: "Viana",
+      reviews: 4,
+      exp: 5,
+      role: "Canalizador"
+    },
+    {
+      id: 20,
+      picture: "canalizador-3.jpg",
       name: "Ricardo Paulo",
       age: "24",
       description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
@@ -121,9 +133,9 @@ export const profissionalsData = [
       },
     {
         id: 10,
-        picture: "jardineiro-2.jpg",
+        picture: "diarista-5.jpg",
         name: "Maura Forquilha",
-        age: "23",
+        age: "32",
         description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
         country: "Angolana",
         address: "Zango",
@@ -190,5 +202,41 @@ export const profissionalsData = [
         reviews: 4,
         exp: 4,
         role: "Babá"
+      },
+    {
+        id: 16,
+        picture: "diarista-1.jpg",
+        name: "Daniela Alves",
+        age: "23",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 4,
+        role: "Diarista"
+      },
+    {
+        id: 16,
+        picture: "diarista-2.jpg",
+        name: "Forquilha Muanza",
+        age: "23",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 4,
+        role: "Diarista"
+      },
+    {
+        id: 17,
+        picture: "eletricista-2.jpg",
+        name: "Gombet Fonseca",
+        age: "23",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 4,
+        role: "Diarista"
       },
 ]  

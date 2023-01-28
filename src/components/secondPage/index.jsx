@@ -72,9 +72,11 @@ const ProfissionalsContainer = () => {
           >
             {/* programs-categories */}
             {profissionalsData.map((item, index) => (
+              item.role==="Diarista"  && (             
               <SwiperSlide key={index}>
                 <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
               </SwiperSlide>
+              )
             ))}
             <div className="swiper-pagination"></div>
           </Swiper>
@@ -161,9 +163,11 @@ const ProfissionalsContainer = () => {
           >
             {/* programs-categories */}
             {profissionalsData.map((item, index) => (
+              item.role==="Eletricista"  && (             
               <SwiperSlide key={index}>
                 <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
               </SwiperSlide>
+              )
             ))}
             <div className="swiper-pagination"></div>
           </Swiper>
