@@ -49,15 +49,15 @@ export const profissionalsData = [
     },
     {
       id: 5,
-      picture: "eletricista.webp",
-      name: "José Gomes",
+      picture: "eletricista-2.webp",
+      name: "Luis Mário",
       age: "24",
       description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
       country: "Angolana",
       address: "Viana",
       reviews: 4,
       exp: 5,
-      role: "Canalizador"
+      role: "Eletricista"
     },
     {
       id: 6,
@@ -95,4 +95,100 @@ export const profissionalsData = [
       exp: 5,
       role: "Canalizador"
     },
+    {
+        id: 9,
+        picture: "jardineiro-1.jpg",
+        name: "Manuel Ndala",
+        age: "28",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Ramiros",
+        reviews: 4,
+        exp: 3,
+        role: "Jardineiro"
+      },
+    {
+        id: 10,
+        picture: "jardineiro-2.jpg",
+        name: "Marco Miguel",
+        age: "28",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Ramiros",
+        reviews: 4,
+        exp: 3,
+        role: "Jardineiro"
+      },
+    {
+        id: 10,
+        picture: "jardineiro-2.jpg",
+        name: "Maura Forquilha",
+        age: "23",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 3,
+        role: "Diarista"
+      },
+    {
+        id: 11,
+        picture: "jardineiro-3.jpg",
+        name: "Laura Almeida",
+        age: "27",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 3,
+        role: "Jardineiro"
+      },
+    {
+        id: 12,
+        picture: "jardineiro-4.jpg",
+        name: "Daniel Ferreira",
+        age: "32",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 4,
+        role: "Jardineiro"
+      },
+    {
+        id: 13,
+        picture: "baba-1.jpg",
+        name: "Rafaela Nunda",
+        age: "26",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 4,
+        role: "Babá"
+      },
+    {
+        id: 14,
+        picture: "baba-2.jpg",
+        name: "Patricia Lula",
+        age: "26",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 4,
+        role: "Babá"
+      },
+    {
+        id: 15,
+        picture: "baba-2.jpg",
+        name: "Carla Nair",
+        age: "23",
+        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
+        country: "Angolana",
+        address: "Zango",
+        reviews: 4,
+        exp: 4,
+        role: "Babá"
+      },
 ]  

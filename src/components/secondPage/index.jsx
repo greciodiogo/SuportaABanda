@@ -12,6 +12,7 @@ import "../Profissionals/Profissionals.css";
 import { profissionalsData } from "../../data/profissionalsD.js";
 
 import Profissional from "./Profissional/Profissional";
+import PreviewModal from "../PreviewModal/PreviewModal";
 // import PreviewModal from "../PreviewModal/PreviewModal";
 
 const ProfissionalsContainer = () => {
@@ -114,10 +115,12 @@ const ProfissionalsContainer = () => {
           >
             {/* programs-categories */}
             {profissionalsData.map((item, index) => (
+              item.role==="Canalizador"  && (             
               <SwiperSlide key={index}>
                 <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
               </SwiperSlide>
-            )).slice(0,5)}
+              )
+            ))}
             <div className="swiper-pagination"></div>
           </Swiper>
         </div>
@@ -202,9 +205,11 @@ const ProfissionalsContainer = () => {
           >
             {/* programs-categories */}
             {profissionalsData.map((item, index) => (
-              <SwiperSlide key={index}>
-                <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
-              </SwiperSlide>
+              item.role==="Babá"  && (             
+                <SwiperSlide key={index}>
+                  <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
+                </SwiperSlide>
+                )
             ))}
             <div className="swiper-pagination"></div>
           </Swiper>
@@ -245,10 +250,13 @@ const ProfissionalsContainer = () => {
           >
             {/* programs-categories */}
             {profissionalsData.map((item, index) => (
+              item.role==="Jardineiro"  && (             
               <SwiperSlide key={index}>
                 <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
               </SwiperSlide>
+              )
             ))}
+
             <div className="swiper-pagination"></div>
           </Swiper>
         </div>
@@ -296,7 +304,11 @@ const ProfissionalsContainer = () => {
           </Swiper>
         </div>
       </div>
-      {/* <PreviewModal product={product} showPainel={showPainel} closepreviewProduct={closepreviewProduct}/> */}
+      <PreviewModal
+        product={product}
+        showPainel={showPainel}
+        closepreviewProduct={closepreviewProduct}
+      />
     </>
   );
 };

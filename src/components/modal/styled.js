@@ -20,6 +20,7 @@ export const ModalContainer = styled.div`
   transition: all 250ms ease-in-out;
   display: flex;
   flex-direction: column;
+
 `;
 export const Top = styled.div`
   height: 50px;
@@ -74,6 +75,7 @@ export const Picture = styled.div`
 export const Content = styled.div`
   padding-top: 0px;
   padding: 20px;
+  overflow: auto;
 `;
 export const About = styled.a`
   position: absolute;
