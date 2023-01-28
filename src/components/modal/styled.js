@@ -58,7 +58,8 @@ export const Main = styled.div`
   // height: 300px;
   display: flex;
   flex-direction: column;
-`;
+  overflow: auto;
+  `;
 export const Picture = styled.div`
   width: 100%;
   height: 400px;
