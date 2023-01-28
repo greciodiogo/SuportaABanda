@@ -35,7 +35,7 @@ const AppHeader = () => {
         <a href="" className="logo" onClick={handleLogoClick}>
           <img type="text" src="images/logo.jpeg " width={50} height={50} />
         </a>
-        <form action="" className="search-bar-container">
+        {/* <form action="" className="search-bar-container">
           <input
             type="search"
             className="search-bar"
@@ -45,8 +45,8 @@ const AppHeader = () => {
             <div className="icon">
               <BsSearch />
             </div>
-          </button>
-        </form>
+          </button> */}
+        {/* </form> */}
         <div className="post" onClick={postTask}>
           <button onClick={handleCreateBtn}>Contactar 📃</button>
         </div>
