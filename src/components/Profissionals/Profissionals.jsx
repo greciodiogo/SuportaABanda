@@ -10,19 +10,20 @@ import "swiper/css/scrollbar";
 
 import "./Profissionals.css";
 import { profissionalsData } from "../../data/profissionals.js";
-
 import Profissional from "./Profissional/Profissional";
 import PreviewModal from "../PreviewModal/PreviewModal";
+import { Link, useNavigate } from "react-router-dom";
 
 const Profissionals = () => {
+  const router = useNavigate();
   const [product, setProduct] = useState(profissionalsData);
   const [showPainel, setShowPainel] = useState(false);
 
   const handlePrevProfissional = (idx) => {
     setProduct(profissionalsData[idx - 1]);
     setShowPainel(true);
-    console.log("logggo")
-    console.log("clickado >>"+idx)
+    console.log("logggo");
+    console.log("clickado >>" + idx);
   };
 
   const closepreviewProduct = () => {
@@ -31,6 +32,10 @@ const Profissionals = () => {
 
   const getProducts = () => {
     // dispatch(getAllProfissionals)
+  };
+  const handleSeeMoreClick = () => {
+    // dispatch(getAllProfissionals)
+    router("/home");
   };
 
   useEffect(() => {
@@ -74,17 +79,26 @@ const Profissionals = () => {
             {/* programs-categories */}
             {profissionalsData.map((item, index) => (
               <SwiperSlide key={index}>
-                <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
+                <Profissional
+                  data={item}
+                  handlePrevProfissional={handlePrevProfissional}
+                />
               </SwiperSlide>
             ))}
             <div class="swiper-pagination"></div>
           </Swiper>
         </div>
-        <div className="seeAllContainer">
-          <span className="seeAll">Ver todos</span>
-        </div>
+        <Link to="home" >
+          <a className="seeAllContainer">
+            <span className="seeAll">Ver todos</span>
+          </a>
+        </Link>
       </div>
-      <PreviewModal product={product} showPainel={showPainel} closepreviewProduct={closepreviewProduct}/>
+      <PreviewModal
+        product={product}
+        showPainel={showPainel}
+        closepreviewProduct={closepreviewProduct}
+      />
     </>
   );
 };
