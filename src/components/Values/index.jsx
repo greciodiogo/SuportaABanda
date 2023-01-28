@@ -14,7 +14,8 @@ const Values = () => {
    <div className="content">
       <h3>Visão</h3>
       <p>Albergar maior partes dos profissionais que trabalham por conta própria na nossa plataforma
-         e ser a preferência da população
+         e ser a preferência da população na solução de problemas domesticos enfrentados
+         pelos lares nos próximos 5 anos em Luanda.
       </p>
       <a href="#menu" className="btn">our menu</a>
    </div>
@@ -31,19 +32,19 @@ const Values = () => {
 
 
       <div className="box">
-         <h3>Excelência</h3>
+         <h3>✔Excelência</h3>
       </div>
 
       <div className="box">
-         <h3>Flexibilidade</h3>
+         <h3>✔Flexibilidade</h3>
       </div>
 
       <div className="box">
-         <h3>Comprometimento</h3>
+         <h3>✔Comprometimento</h3>
       </div>
 
       <div className="box">
-         <h3>Confiabilidade</h3>
+         <h3>✔Confiabilidade</h3>
       </div>
    </div>
 
