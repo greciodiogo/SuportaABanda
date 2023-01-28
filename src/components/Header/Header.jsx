@@ -46,18 +46,28 @@ const Header = () => {
               Serviços
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link
               onClick={() => setMenuOpened(false)}
               to="reasons"
               spy={true}
               smooth={true}
             >
-              Porquê Nós
+              Porquê Nós?
             </Link>
-          </li> */}
-          <NavLink text="Porquê Nós?" to="reasons" />
-          <NavLink text="Planos" to="plans" />
+          </li>
+          <li>
+            <Link
+              onClick={() => setMenuOpened(false)}
+              to="reasons"
+              spy={true}
+              smooth={true}
+            >
+              Sobre Nós
+            </Link>
+          </li>
+          {/* <NavLink text="Porquê Nós?" to="reasons" /> */}
+          {/* <NavLink text="Planos" to="plans" /> */}
           {/* <li>
             <Link
               onClick={() => setMenuOpened(false)}

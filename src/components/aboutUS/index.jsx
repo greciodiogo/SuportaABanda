@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 
 const AboutUs = () => {
+const router = useNavigate()
   return (
     <div>
       <section className="ambiente-magico">

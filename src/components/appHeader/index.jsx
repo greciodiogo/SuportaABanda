@@ -2,8 +2,11 @@ import React, { useState,useEffect } from "react";
 import "./styles.css";
 import { BsSearch } from "react-icons/bs";
 // import PostTask from "../postTask";
+import { useNavigate } from 'react-router-dom'
+
 
 const AppHeader = () => {
+  const router = useNavigate()
   const [showingPainel, setShowingPainel] = useState(false);
   const postTask = () => {
     setShowingPainel(false);
@@ -11,6 +14,9 @@ const AppHeader = () => {
   
   const handleCreateBtn = () => {
 
+  }
+  const handleLogoClick = () => {
+    router('/')
   }
 
   useEffect(() => {
@@ -26,7 +32,7 @@ const AppHeader = () => {
   return (
     <>
       <div className="container__header">
-        <a href="" className="logo">
+        <a href="" className="logo" onClick={handleLogoClick}>
           <img type="text" src="images/logo.jpeg " width={50} height={50} />
         </a>
         <form action="" className="search-bar-container">
