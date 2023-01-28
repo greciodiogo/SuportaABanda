@@ -72,6 +72,9 @@ export const Picture = styled.div`
     object-fit: cover;
     // transform: scale(1.2);
   }
+  @media (max-width:450px){
+    height: 250px;
+  }
 `;
 export const Content = styled.div`
   padding-top: 0px;
