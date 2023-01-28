@@ -62,7 +62,7 @@ const Programs = () => {
                 <span>{program.heading}</span>
                 <span>{program.details}</span>
                 <div className="join-now">
-                    <span>Explorar</span>
+                    {/* <span>Explorar</span> */}
                     <img src={RightArrow} alt="" />
                 </div>
             </div>

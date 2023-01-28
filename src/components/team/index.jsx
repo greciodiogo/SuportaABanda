@@ -14,7 +14,7 @@ const OurTeam = () => {
    <div className="box-container">
 
       <div className="box">
-         <img src="images/team/adilson.jpeg" alt="" />
+         <img src="images/team/Adilson.png" alt="" />
          <h3>Adilson Gombet</h3>
       </div>
       <div className="box">

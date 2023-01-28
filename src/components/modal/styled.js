@@ -62,7 +62,7 @@ export const Main = styled.div`
   `;
 export const Picture = styled.div`
   width: 100%;
-  height: 400px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
