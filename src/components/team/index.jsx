@@ -19,7 +19,7 @@ const OurTeam = () => {
       </div>
       <div className="box">
          <img src="images/team/Celmer.jpeg" alt="" />
-         <h3><span style={{color:"green", opacity:.6, fontSize:"22px"}}>🖊 </span>Celmer Alves</h3>
+         <h3><span style={{color:"green", opacity:.6, fontSize:"22px"}}>🖊 </span>Celmer Van-Dúnem</h3>
       </div>
       <div className="box">
          <img src="images/team/Daniel.jpeg" alt="" />
