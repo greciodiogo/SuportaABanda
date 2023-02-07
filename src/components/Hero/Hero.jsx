@@ -90,28 +90,7 @@ const Hero = () => {
           </Link>
           </button>
 
-        {/* heart rate */}
-        {/* <motion.div
-          initial={{ right: "-1rem" }}
-          whileInView={{ right: "4rem" }}
-          transition={transition}
-          className="heart-rate"
-        >
-          <img src={Heart} alt="" />
-          <span>Necessidade</span>
-          <span>110%</span>
-        </motion.div> */}
-
-        {/* hero images */}
         <img className="hero-image" src={hero_image} alt="" />
-        {/* <motion.img
-          initial={{ right: "11rem" }}
-          whileInView={{ right: "20rem" }}
-          transition={transition}
-          className="hero-image-back"
-          src={hero_image_back}
-          alt=""
-        /> */}
 
         {/* calories */}
         <motion.div
