@@ -12,6 +12,8 @@
     padding: 1rem 7%;
     border-bottom: var(--border2);
     gap: 2rem;
+    position: sticky;
+    top: 0;
 }
 
 .container__header .logo {

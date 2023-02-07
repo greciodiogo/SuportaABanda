@@ -223,7 +223,7 @@ const ProfissionalsContainer = () => {
       <div className="profissionals" id="programs">
         {/* programs header */}
         <div className="profissionals-header">
-          <span className="">Jardineiros</span>
+          <span className="">Manut. Forros</span>
         </div>
 
         <div className="wrapper">
@@ -254,7 +254,7 @@ const ProfissionalsContainer = () => {
           >
             {/* programs-categories */}
             {profissionalsData.map((item, index) => (
-              item.role==="Jardineiro"  && (             
+              item.role==="Manut. Forros"  && (             
               <SwiperSlide key={index}>
                 <Profissional data={item} handlePrevProfissional={handlePrevProfissional} />
               </SwiperSlide>

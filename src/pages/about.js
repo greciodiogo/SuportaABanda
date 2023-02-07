@@ -1,3 +1,4 @@
+import AboutCompany from '../components/aboutCompany';
 import AboutCont from '../components/aboutUS/about';
 import AppHeader from '../components/appHeader';
 import OurTeam from '../components/team';
@@ -8,6 +9,7 @@ function AboutPage() {
     <>
      <AppHeader/>
      <AboutCont/>
+     <AboutCompany/>
      {/* <Values/> */}
      <OurTeam/>
     </>

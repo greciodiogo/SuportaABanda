@@ -1,6 +1,9 @@
 .ambiente-magico {
     padding-top: 99px;
     padding-bottom: 50px;
+    padding:3rem 2rem;
+    max-width: 1200px;
+    margin:0 auto;
 }
 
 .ambiente-magico .container {
@@ -177,7 +180,7 @@ h2 {
 
 @media (max-width: 768px) {
     .ambiente-magico {
-        padding: 60px 0px;
+        padding: 1rem;
     }
     .ambiente-magico .container {
         -webkit-box-orient: vertical;

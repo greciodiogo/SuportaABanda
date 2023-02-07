@@ -69,6 +69,6 @@ export const profissionalsData = [
       address: "Ramiros",
       reviews: 4,
       exp: 5,
-      role: "Jardineiro"
+      role: "Manut. Forros"
     },
 ]  

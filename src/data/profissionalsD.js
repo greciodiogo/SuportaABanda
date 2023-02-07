@@ -109,7 +109,7 @@ export const profissionalsData = [
     },
     {
         id: 9,
-        picture: "jardineiro-1.jpg",
+        picture: "manut-1.jpg",
         name: "Manuel Ndala",
         age: "28",
         description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
@@ -117,11 +117,11 @@ export const profissionalsData = [
         address: "Ramiros",
         reviews: 4,
         exp: 3,
-        role: "Jardineiro"
+        role: "Manut. Forros"
       },
     {
         id: 10,
-        picture: "jardineiro-2.jpg",
+        picture: "manut-2.webp",
         name: "Marco Miguel",
         age: "28",
         description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
@@ -129,7 +129,7 @@ export const profissionalsData = [
         address: "Ramiros",
         reviews: 4,
         exp: 3,
-        role: "Jardineiro"
+        role: "Manut. Forros"
       },
     {
         id: 10,
@@ -145,7 +145,7 @@ export const profissionalsData = [
       },
     {
         id: 11,
-        picture: "jardineiro-3.jpg",
+        picture: "manut-3.jpeg",
         name: "Laura Almeida",
         age: "27",
         description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
@@ -153,19 +153,7 @@ export const profissionalsData = [
         address: "Zango",
         reviews: 4,
         exp: 3,
-        role: "Jardineiro"
-      },
-    {
-        id: 12,
-        picture: "jardineiro-4.jpg",
-        name: "Daniel Ferreira",
-        age: "32",
-        description: "Longa experiência na área. Com mais de 5 anos desempenhando a função, com carisma, empenho e motivação para servir, corrigir e orgulhar",
-        country: "Angolana",
-        address: "Zango",
-        reviews: 4,
-        exp: 4,
-        role: "Jardineiro"
+        role: "Manut. Forros"
       },
     {
         id: 13,

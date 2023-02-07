@@ -4,14 +4,14 @@ import './about.css'
 const AboutCont = () => {
   return (
     <>
-    <section className="ambiente-magico">
+    <div className="ambiente-magico">
         <div className="container first">
             <div className="text">
                 <h2>Missão</h2>
                 <p>Trazer soluções de forma fácil às diversas necessdidades dos lares com 
                     insentivo e promoção de auto emprego em Luanda
                 </p>
-                    <a href="#" className="btn">Ver a nossa visão</a>
+                    <a href="#visão" className="btn">Ver a nossa visão</a>
             </div>
             <div className="image">
                 <img
@@ -19,8 +19,8 @@ const AboutCont = () => {
                 />
             </div>
         </div>
-    </section>
-    <section className="ambiente-magico">
+    </div>
+    <div className="ambiente-magico" id='visão'>
         <div className="container">
             <div className="image">
                 <img
@@ -34,10 +34,10 @@ const AboutCont = () => {
                     e ser a preferência da população na solução de problemas domesticos enfrentados
                     pelos lares nos próximos 5 anos em Luanda.
                 </p>
-                <a href="#" className="btn">Ver o elenco responsável</a>
+                <a href="#team" className="btn">Ver o elenco responsável</a>
             </div>
         </div>
-    </section>
+    </div>
     </>
   )
 }

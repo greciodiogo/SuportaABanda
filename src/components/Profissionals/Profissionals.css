@@ -56,11 +56,11 @@
 }
 
   .swiper-wrapper{
-  padding: 1rem !important;
+  padding: 1rem 0 !important;
 }
 
   .swiper{
-  padding: 1rem !important;
+  padding: 1rem 0 !important;
 }
 
 .swiper-pagination-bullet{

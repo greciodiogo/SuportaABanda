@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem;
+    padding: 2rem 4rem;
   }
   .programs-header {
     display: flex;
@@ -79,6 +79,10 @@
   }
   
   @media screen and (max-width: 767px) {
+    .Programs {
+      padding: 1.5rem;
+    }
+
     .programs-header{
       flex-direction: column;
       gap: 1rem;
@@ -90,5 +94,9 @@
     .program-categories{
       flex-direction: column;
     }
+    .category {
+      padding: 2rem;
+    }
+
   }
   

@@ -4,7 +4,7 @@ import './styles.css'
 const OurTeam = () => {
   return (
 
-<section className="team" id="team">
+<div className="team" id="team">
 
    <div className="heading">
       <img src="images/heading-img.png" alt="" />
@@ -15,23 +15,23 @@ const OurTeam = () => {
 
       <div className="box">
          <img src="images/team/Adi.jpeg" alt="" />
-         <h3>Adilson Gombet</h3>
+         <h3><span style={{color:"green", opacity:.6, fontSize:"22px"}}>🖊 </span>Adilson Gombet</h3>
       </div>
       <div className="box">
          <img src="images/team/Celmer.jpeg" alt="" />
-         <h3>Celmer Alves</h3>
+         <h3><span style={{color:"green", opacity:.6, fontSize:"22px"}}>🖊 </span>Celmer Alves</h3>
       </div>
       <div className="box">
          <img src="images/team/Daniel.jpeg" alt="" />
-         <h3>Daniel Madalena</h3>
+         <h3><span style={{color:"green", opacity:.6, fontSize:"22px"}}>🖊 </span>Daniel Madalena</h3>
       </div>
       <div className="box">
          <img src="images/team/Helena.jpeg" alt="" />
-         <h3>Helena Muanza</h3>
+         <h3><span style={{color:"green", opacity:.6, fontSize:"22px"}}>🖊 </span>Helena Muanza</h3>
       </div>
       <div className="box">
          <img src="images/team/Paula.jpeg" alt="" />
-         <h3>Paula Forquilha</h3>
+         <span></span><h3><span style={{color:"green", opacity:.6, fontSize:"22px"}}>🖊 </span>Paula Forquilha</h3>
       </div>
       {/* <div className="box">
          <img src="images/team/adilson.jpeg" alt="" />
@@ -40,7 +40,7 @@ const OurTeam = () => {
 
    </div>
 
-</section>
+</div>
 
   )
 }
