@@ -3,22 +3,27 @@ import { FaCaretRight, FaTimes } from "react-icons/fa";
 import ReactDOM  from 'react-dom'
 import "./PreviewModal.css";
 import { Title, Role, Desc, Bottom, Button, About, Name, Price, Description, Picture, Content, Main, Top, ModalContainer, Container} from "../modal/styled";
+import Notification from "../notification";
 
 
-const PreviewModal = ({ product, showPainel, closepreviewProduct }) => {
+const PreviewModal = ({ product, showPainel, setShowPainel, closepreviewProduct }) => {
   const [showCheckout, setShowCheckout] = useState(false);
+  const [openNotification, setOpenNotification] = useState(false)
+   
+
+  const handleClick = () => {
+    setOpenNotification(true)
+    // setShowPainel(false)
+    // closeModal()
+  };
   const closeModal = () => {
     setShowCheckout(false);
-  };
-
-  const handleAddToCart = (idx) => {
-    closepreviewProduct()
-    setShowCheckout(true);
   };
   
     const url = `images`;
 
   const modal = (
+    <>
     <Container>
       <ModalContainer>
         <Top className="top">
@@ -48,11 +53,13 @@ const PreviewModal = ({ product, showPainel, closepreviewProduct }) => {
         <Bottom>
             <Button outlined onClick={closepreviewProduct} aria-label="cancelar">Cancelar</Button>
             <>
-              <Button onClick={()=>handleAddToCart(product.id)} aria-label="adicionar carrinho">Negociar</Button>
+              <Button onClick={handleClick} aria-label="negociar">Negociar</Button>
             </>
         </Bottom>
       </ModalContainer>
     </Container>
+    <Notification openNotification={openNotification} setShowPainel={setShowPainel} setOpenNotification={setOpenNotification} />
+    </>
   )
   return showPainel ? ReactDOM.createPortal(modal, document.body) : null
 };

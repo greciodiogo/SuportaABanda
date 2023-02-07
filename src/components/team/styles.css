@@ -31,13 +31,14 @@
 ::-webkit-scrollbar-thumb{
    background-color: var(--main-color);
 }
-
+/* 
 html{
    font-size: 62.5%;
-   overflow-x: hidden;
+   overflow: hidden;
    scroll-behavior: smooth;
    scroll-padding-top: 6.5rem;
-}
+} 
+*/
    
 
 section{
@@ -45,7 +46,11 @@ section{
    max-width: 1200px;
    margin:0 auto;
 }
-
+@media (max-width:768px){
+   section{
+      padding: 1rem;
+   }
+}
 
 
 .heading{

@@ -1,4 +1,4 @@
-
+/* 
 .about{
     display: flex;
     align-items: center;
@@ -48,12 +48,12 @@
     height: 10rem;
     margin-bottom: .5rem;
  }
- 
- .facility .box-container .box h3{
+  */
+ /* .facility .box-container .box h3{
     font-size: 2rem;
     color:var(--black);
-    /* padding: 0 1rem ; */
-    /* margin:1rem 0; */
+    padding: 0 1rem ;
+    margin:1rem 0;
     border-radius: 12px;
     padding: 8px;
     color: white;
@@ -65,4 +65,4 @@
     font-size: 1.5rem;
     color:var(--light-color);
  }
- 
+  */

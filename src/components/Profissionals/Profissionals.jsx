@@ -97,6 +97,7 @@ const Profissionals = () => {
       <PreviewModal
         product={product}
         showPainel={showPainel}
+        setShowPainel={setShowPainel}
         closepreviewProduct={closepreviewProduct}
       />
     </>

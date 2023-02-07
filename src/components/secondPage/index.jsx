@@ -311,6 +311,7 @@ const ProfissionalsContainer = () => {
       <PreviewModal
         product={product}
         showPainel={showPainel}
+        setShowPainel={setShowPainel}
         closepreviewProduct={closepreviewProduct}
       />
     </>
