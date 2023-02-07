@@ -10,6 +10,14 @@
     width: 10rem;
     height: 3rem;
 }
+
+.header .logo {
+    /* color: var(--primary);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: lowercase; */
+}
 .novo-logo{
     color: white;
 }
@@ -42,5 +50,16 @@
         background-color: var(--orange);
         padding: 2rem;
         color: white;
+    }
+}
+
+@media(max-width:450px){
+    .header .logo {
+        color: var(--primary);
+        font-size: 38px;
+    }
+    .header .post button {
+        padding: 1rem 2rem;
+        font-size: 15px;
     }
 }

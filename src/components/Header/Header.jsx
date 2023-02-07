@@ -15,7 +15,9 @@ const Header = () => {
   return (
     <div className="header" id="header">
       {/* <img src={Logo} alt="" className="logo" /> */}
-      <h2 className="novo-logo">🛠 Suporta a Banda</h2>
+      <a href="" className="logo" >
+          <img type="text" src="images/logo.jpeg " width={50} height={50} />
+        </a>
       {(menuOpened===false && mobile===true)? (
         <div
           style={{ backgroundColor: "#35a994", color:"white", padding: "0.5rem", borderRadius: "5px" }}
